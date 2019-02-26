@@ -1,0 +1,23 @@
+{
+  "name": "@salomvary/ffmpeg.js-umd",
+  "version": "3.1.9001",
+  "description": "ffmpeg.js UMD Distribution",
+  "main": "ffmpeg-webm.js",
+  "public": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "ffmpeg-mp4.js",
+    "ffmpeg-webm.js"
+  ],
+  "devDependencies": {
+    "ffmpeg.js": "3.1.9001"
+  },
+  "scripts": {
+    "test": "node test/commonjs-test.js"
+  },
+  "keywords": [],
+  "author": "Márton Salomváry",
+  "license": "ISC"
+}
